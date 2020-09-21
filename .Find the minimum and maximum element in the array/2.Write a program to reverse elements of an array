@@ -1,0 +1,22 @@
+/*.Find the minimum and maximum element in the array
+ sample input=5
+             12345
+             sample output=max:5, min:1; */
+             
+#include<stdio.h>
+#include<stdlib.h>
+void main()
+{
+	int i, arr[i],n;
+	printf("Enter size of array..");
+	scanf("%d",&n);
+   
+   for(i=0;i<n;i++)
+   {
+   	scanf("%d",&arr[i]);
+	   }
+	for(i=0;i<n;i++)
+	{
+		printf("%d	",arr[i]);
+		}	
+}
