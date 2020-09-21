@@ -1,0 +1,23 @@
+# Team-coding-work
+/*2.Write a program to reverse elements of an array.
+sample input=5
+             12345
+             sample output: 54321
+*/
+#include<stdio.h>
+#include<stdlib.h>
+void main()
+{
+	int i, arr[i],n;
+	printf("Enter size of array..");
+	scanf("%d",&n);
+   
+   for(i=0;i<n;i++)
+   {
+   	scanf("%d",&arr[i]);
+	   }
+	for(i=n-1;i>=0;i--)
+	{
+		printf("%d	",arr[i]);
+		}	
+}
